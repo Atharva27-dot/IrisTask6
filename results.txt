@@ -1,0 +1,32 @@
+===== KNN Classification Results =====
+
+Comparing K values:
+K=1 -> Accuracy=0.9667
+K=3 -> Accuracy=0.9333
+K=5 -> Accuracy=0.9333
+K=7 -> Accuracy=0.9667
+K=9 -> Accuracy=0.9667
+K=11 -> Accuracy=0.9667
+K=13 -> Accuracy=0.9667
+K=15 -> Accuracy=0.9667
+
+Best K = 1, Best Accuracy = 0.9667
+
+Final Accuracy: 0.9666666666666667
+
+Confusion Matrix:
+[[10  0  0]
+ [ 0 10  0]
+ [ 0  1  9]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+      setosa       1.00      1.00      1.00        10
+  versicolor       0.91      1.00      0.95        10
+   virginica       1.00      0.90      0.95        10
+
+    accuracy                           0.97        30
+   macro avg       0.97      0.97      0.97        30
+weighted avg       0.97      0.97      0.97        30
+
